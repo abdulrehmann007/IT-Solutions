@@ -1,0 +1,272 @@
+/* UNIVERSAL */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+span {
+  color: #f7444e;
+}
+
+a:hover {
+  transition: 0.8s;
+  color: #f7444e;
+}
+
+/* MAIN HEADER */
+
+header {
+  padding: 20px;
+  background-color: darkblue;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  text-align: center;
+  word-spacing: 0.5rem;
+  overflow: auto;
+  margin: 10px 50px;
+  font-size: large;
+}
+
+.contact-link {
+  word-spacing: 0;
+}
+
+#branding {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.search-bar {
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-right: 30px;
+}
+
+input[type="search"] {
+  padding: 5px;
+  width: 250px;
+  font-style: italic;
+  border-radius: 5px;
+  border: #f7444e 2px solid;
+}
+
+span:hover {
+  letter-spacing: 0.1em;
+  transition: 0.8s;
+  color: #ffffff;
+}
+
+/* SHOWCASE:1 (SLIDER)  */
+
+.slider {
+  background-image: url("../images/soft.png");
+  width: 100%;
+  height: 495px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider h1 {
+  color: rgb(0, 255, 238);
+  opacity: 0.9;
+  font-size: 80px;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+.slider h2 {
+
+  color: rgb(0, 255, 238);
+  opacity: 0.9;
+  font-size: 50px;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+.slider-text {
+  background-color: black;
+  opacity: 0.4;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* SHOWCASE:3 (SERVICES) */
+
+#services {
+  background-color: rgb(221, 217, 217);
+}
+
+.services-header {
+  text-align: left;
+  padding: 0 94px;
+  color: darkblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.sub-services {
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.services-header::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 5px;
+  background: #f7444e;
+  margin:auto;
+  margin-top: 6px;
+}
+
+/* SHOWCASE:2 (WHO WE ARE) */
+
+#introduction {
+  background-color: rgb(221, 217, 217);
+}
+.intro-header {
+  text-align: left;
+  padding: 24px 95px 1px;
+  padding-bottom: 10px;
+  color: darkblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 00.1em;
+  text-align: center;
+}
+
+.sub-intro {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 00.1em;
+  word-spacing: 00.1em;
+  text-align: center;
+}
+
+.fsd {
+  color: black;
+}
+
+.intro-header::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #f7444e;
+  margin:auto;
+  margin-top: 6px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px groove;
+  padding: 20px 5px 20px 5px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+
+.help p {
+  color: white;
+  padding-left: 5px;
+  font-family: sans-serif;
+}
+
+.help h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #f7444e;
+}
+
+.services h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #f7444e;
+}
+
+.services li {
+  font-family: sans-serif;
+}
+
+#copyright {
+  background-color: #f7444e;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  padding: 5px;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+}
+
+.container h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #f7444e;
+}
+
+input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+.button_1 {
+  height: 38px;
+  background: #f7444e;
+  border: none;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+}
+
+form {
+  padding-left: 5px;
+}
+
+#copyright {
+  padding: 30px;
+}
+
+
